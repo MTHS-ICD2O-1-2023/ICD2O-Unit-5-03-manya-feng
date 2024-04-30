@@ -17,9 +17,9 @@ function myButtonClicked() {
     // output
   if (usersAges >= 17) {
     console.log("You can see an R movie alone.");
-  } else if(age >= 13) {
+  } else if(usersAges >= 13) {
     console.log("You can see a PG-13 movie alone.");
-  } else if(age >= 5) {
+  } else if(usersAges >= 5) {
     console.log("You can see a G or PG movie alone.");
   } else {
     console.log("Uh. You're too young for most things.");
