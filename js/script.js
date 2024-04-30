@@ -5,7 +5,7 @@
 // This file contains the JS functions for index.html
 "use strict"
 
-function myButtonClicked() {
+function calculate() {
   const usersAges = parseInt(document.getElementById("usersage").value)
 
 if (usersAges >= 17) {
